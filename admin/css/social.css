@@ -1,0 +1,23 @@
+.tabela_social{
+	width: 55px; 
+	float: right; 
+	position: absolute;
+	top:25%;
+	background:#0e0e0e;
+	box-shadow: 0px 1px 5px black;
+	margin-right: 1px;
+}
+
+.ikony_social{
+	font-size: 40px !important;
+	text-shadow: 1px 5px black;
+	padding:  5px 7px 4px 8px;
+}
+
+.social{
+	width:3%;
+	float:right;
+	position: relative;
+	height: 20%;
+	top:40%;
+}

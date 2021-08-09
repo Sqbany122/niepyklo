@@ -1,0 +1,111 @@
+.button_next_first, .button_next_first:visited , .button_next_first:link, .button_next_first:focus {
+	background: #1f1f1f;
+	padding: 10px 0 10px 0;
+	color: white;
+	width: 80%;
+	font-size: 30px;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	border:solid 2px #0e0e0e;
+	position:relative;
+	float: left;
+}
+
+.button_next_last, .button_next_last:visited , .button_next_last:link, .button_next_last:focus{
+	background: #1f1f1f;
+	padding: 10px 0 10px 0;
+	color: white;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	border:solid 2px #0e0e0e;
+	position:relative;
+	float: left;
+}
+
+.przycisk_losowanie, .przycisk_losowanie:visited, .przycisk_losowanie:link, .przycisk_losowanie:focus{
+	width: 20%;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	outline: none;
+	text-decoration: none;
+	border:solid 2px #0e0e0e;
+	background-color: #1f1f1f;
+	float: right;
+}
+
+
+.button_next, .button_next:visited , .button_next:link, .button_next:focus {
+	background: #1f1f1f;
+	padding: 10px 0 10px 0;
+	color: white;
+	width: 40%;
+	outline: none;
+	font-size: 30px;
+	text-align: center;
+	border: solid 2px #0e0e0e;
+	text-decoration: none;
+	float: left;
+  }
+   
+.button_back, .button_back:visited , .button_back:link, .button_back:focus {
+	background: #1f1f1f;
+	padding: 10px 0 10px 0;
+	color: white;
+	width: 40%;
+	font-size: 30px;
+	text-align: center;
+	outline: none;
+	border: solid 2px #0e0e0e;
+	text-decoration: none;
+	float: left;
+} 
+
+.pages, .pages:visited, .pages:link, .pages:focus{
+	color: white;	
+	text-decoration: none;
+	background-color: #1f1f1f;
+	margin: 0 0 0 0;
+	outline:none;
+	line-height: 30px;
+	width: 10%;
+	border: solid 2px #0e0e0e;
+	font-size: 24px;
+	font-weight: 600; 
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	float:left;
+}
+
+.active_pg, .active_pg:link, .active_pg:hover{
+	color: white;	
+	text-decoration: none;
+	background-color: #1f1f1f;
+	margin: 0 0 0 0;
+	width: 10%;
+	outline:none;
+	border: solid 2px #0e0e0e;
+	text-align: center;
+	line-height: 30px;
+	padding: 10px 10px 10px 10px;
+	float:left;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+.orange,.orange:hover {
+	color: #ff5917;
+}
+
+@media screen and (max-width: 900px) {
+	.active_pg, .active_pg:link{
+		display: none;
+	}
+
+}

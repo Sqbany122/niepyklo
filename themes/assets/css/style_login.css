@@ -1,0 +1,139 @@
+.mobile_padding{
+	width:500px;
+	margin-left: 200px;
+	margin-top: 210px;
+}
+
+.admin_h1{
+	font-family: Arial;
+	font-weight: 600;
+	font-size: 50px;
+}
+
+.bg{
+ 	position: absolute;
+ 	left: 0;
+ 	overflow: hidden;
+ 	width: 50%;
+ 	height: 100%;
+}
+
+.bg_2{
+ 	position: absolute;
+ 	right: 0;
+}
+
+.img_reje{
+	position: absolute;
+	top:130;
+}
+
+
+.td_input {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	outline:none;
+	background: none;
+	font-size: 20px;
+	margin-top:10px;	
+	transition: 0.7s;
+	color: #fff;
+	cursor: pointer;
+}
+
+.td_input_dodaj {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	outline: none;
+	background: none;
+	font-size: 20px;
+	margin-top:10px;
+	transition: 0.7s;		
+	color: #fff;
+	cursor: pointer;
+}
+
+.td_input_logowanie, .td_input_logowanie:focus {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	outline:none;
+	font-size: 20px;
+	margin-top:10px;
+	background-color: #ff5917;
+	border: none;
+	transition: .3s;
+	color: #fff;
+	cursor: pointer;
+}
+
+.forgot_password, .forgot_password:focus {
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	outline:none;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 5px;
+	margin-top: 10px;
+	background-color: #ff5917;
+	border:none;
+	opacity: 0.8;
+	transition: 0.3s;
+	color: #fff;
+	cursor: pointer;
+}
+
+.go_back_btn,.go_back_btn:hover {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	outline:none;
+	display: block;
+	font-size: 20px;
+	margin-top:10px;
+	text-decoration:  none;
+	background-color: #ff5917;
+	opacity: 0.8;
+	line-height: 50px;
+	border: solid 1px #0e0e0e;
+	color: #fff;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.regulamin{
+	opacity: 0.7;
+}
+
+.regulamin > a {
+	color:#ff5917;
+	text-decoration: none;
+}
+
+.login_incorrect_data{
+	margin-top: 100px;
+}
+
+@media only screen and (max-width: 560px) {
+  .mobile_padding {
+    padding:0 !important;
+    border:none !important;
+ 	margin-top:100px !important;
+ 	width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+	.bg_2{
+		display: none;
+	}
+	.bg{
+		width: 100%;
+	}
+	.mobile_padding{
+		margin-left: 0;
+	}
+}

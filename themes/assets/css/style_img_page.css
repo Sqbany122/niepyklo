@@ -1,0 +1,26 @@
+.button_home, .button_home:visited, .button_home:link{
+	background: #1f1f1f;
+	padding: 10px 0 10px 0;
+	color: white;
+	width: 100%;
+	font-size: 30px; 
+	text-align: center;
+	font-family: Helvetica, Arial, Sans-Serif;
+	text-decoration: none;
+	border:solid 2px #0e0e0e;
+	position:relative;
+	float: left;
+}
+
+.przycisk_losowanie, .przycisk_losowanie:visited, .przycisk_losowanie:link{
+	width: 20%;
+	font-family: Helvetica, Arial, Sans-Serif;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	border:solid 2px #0e0e0e;
+	background-color: #1f1f1f;
+	float: right;
+}

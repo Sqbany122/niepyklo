@@ -1,0 +1,16 @@
+.changelogUpdateDiv {
+    margin-top: 50px;
+}
+
+.changelogUpdateSpan {
+    width: auto;
+    height: 35px;
+    background-color: #ff5917;
+    display: inline-block;
+    padding: 6px 10px 5px 10px;
+    color: #fff;
+}
+
+.changelogListItems span {
+    display: block;
+}

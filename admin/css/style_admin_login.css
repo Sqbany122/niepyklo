@@ -1,0 +1,25 @@
+.admin_h1{
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+#kontener{
+	text-align:left;
+	width: 600px;
+	height: auto;
+	position:relative;
+	margin: 0 auto;
+	top:150;
+	margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 660px) {
+  #kontener {
+    width:95%;
+    top:100;
+  }
+}
+
+#kontener table {
+   font-size:12px;
+}

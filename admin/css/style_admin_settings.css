@@ -1,0 +1,51 @@
+.admin_h1{
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+#kontener{
+	text-align:left;
+	width: 50%;
+	height: auto;
+	position:absolute;
+	top:150;
+	left: 25%;
+	margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 660px) {
+  #kontener {
+    width:95%;
+    top:100;
+  }
+}
+
+#kontener table {
+   font-size:12px;
+}
+
+
+.td_input {
+	width: 100%;
+	height: 70px;
+	box-shadow: 1px 1px 1px black;
+	text-align: center;
+	outline:none;
+	font-size: 20px;
+	border: none;
+	background: #0e0e0e;	
+	margin-top: -1px;
+	margin-bottom: -1px;
+	color: #fff;
+	cursor: pointer;
+	
+}
+
+.td_ustawienia{
+	width:80%;
+	height: auto;
+	box-shadow: 1px 1px 1px black;
+	font-size: 20px;
+	background: #0e0e0e;
+	padding: 10px;
+}

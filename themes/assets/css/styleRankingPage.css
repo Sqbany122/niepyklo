@@ -1,0 +1,47 @@
+.marginRanking {
+	margin-top: 150px;
+}
+
+.rankingTable {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.rankingTable td, .rankingTable th {
+	border: 1px solid #515151;
+	padding: 8px;
+}
+
+.tableHeaderRanking th:first-child {
+	width: 50px;
+}
+
+.tableHeaderRanking th {
+	background-color: #1f1f1f !important;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.plusColumn {
+	max-width: 2rem;
+}
+
+.tableBodyRanking th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #0e0e0e;
+	color: white;
+}
+
+.firstPlace {
+	background-color: #d4af22 !important;
+}
+
+.secondPlace {
+	background-color: #c4cace !important;
+}
+
+.thirdPlace {
+	background-color: #b08d57 !important;
+}

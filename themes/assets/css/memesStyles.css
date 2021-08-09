@@ -1,0 +1,129 @@
+.imageBox {
+    position: relative;
+    border: solid 1px #1d1c1c;
+    border-radius: .25rem;
+}
+
+.memeInfoBox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0,0,0,0.8);
+}
+
+    .headerMemeInfoBox-userInfo {
+        width: 75%;
+        padding: 1.5rem!important;
+    }
+
+    .bodyMemeInfoBox {
+        flex-direction: column;
+    }
+
+        .bodyMemeInfoBox-firstBox {
+            padding: .5rem 1.5rem!important;
+        }
+
+            .bodyMemeInfoBox-tagsBox {
+
+            }
+
+                .bodyMemeInfoBox-singleTag {
+                    background-color: #1f1f1f;
+                    border: solid 1px lightgrey;
+                    margin-right: 10px;
+                    font-size: .8rem;
+                }
+        
+        .bodyMemeInfoBox-secondBox {
+            padding: 1rem 1.5rem!important;
+        }      
+
+        .bodyMemeInfoBox-imageDescription  {
+            text-align: left;
+        }     
+
+    .headerMemeInfoBox-otherInfo {
+        width: 25%;
+        padding: 1.5rem!important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .headerMemeInfoBox-userInfo {
+            padding: 1rem!important;
+        }
+
+        .bodyMemeInfoBox-firstBox, .bodyMemeInfoBox-secondBox {
+            padding: .5rem 1rem!important;
+        }
+        
+        .headerMemeInfoBox-otherInfo {
+
+            padding: 1rem!important;
+        }
+    }
+
+    @media only screen and (max-width: 455px) {
+        .headerMemeInfoBox-userInfo {
+            padding: .5rem!important;
+        }
+
+        .bodyMemeInfoBox-firstBox, .bodyMemeInfoBox-secondBox {
+            padding: .5rem .5rem!important;
+        }
+        
+        .headerMemeInfoBox-otherInfo {
+            padding: .5rem!important;
+        }
+    }
+
+    .headerMemeInfoBox-userInfo-userAvatar {
+        width: 60px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
+
+    .headerMemeInfoBox-userInfo-usernameBox {
+        height: 100%;
+    }
+
+    .headerMemeInfoBox-userInfo-plusBox {
+        height: 100%;       
+    }
+
+        .headerMemeInfoBox-userInfo-plus {
+            font-weight: bold;
+            font-size: 24px;
+            min-width: 60px;
+            height: 100%;
+            background-color: #ff5917;
+            color: #fff;
+            border: none;
+            transition: .5s;
+        }
+
+        .plusBtn-clicked {
+            background-color: white;
+            opacity: 0.9;
+            color:#ff5917;
+            font-weight: 600;
+            transition: .5s;
+        }
+
+    .expandImage {
+        position: absolute;
+        background-color: rgb(0,0,0,0.8);
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+
+        .expandImage i {
+            pointer-events: none;
+        } 
+
+        

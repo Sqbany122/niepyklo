@@ -1,0 +1,38 @@
+Options +FollowSymLinks -MultiViews
+<IfModule mod_rewrite.c>
+    ErrorDocument 404 /404.php
+    RewriteEngine On
+    RewriteBase /
+
+    RewriteRule ^discord$ themes/discord/examples/send-message/index.php [L]
+
+    #Przekierowania podstron z końcówką .php na ich odpowiedniki bez końcówki
+    RewriteRule ^profil/([^<>]+$)$ themes/user_profile/moje_konto.php?user=$1 [L]
+    RewriteRule ^poczekalnia$ themes/poczekalnia.php [L]
+    RewriteRule ^losowanie$ themes/losuj.php [L]
+    RewriteRule ^dodawanie-mema$ themes/dodaj.php [L]
+    RewriteRule ^formularz-kontaktowy$ themes/contact.php [L]
+    RewriteRule ^opis-zmian$ themes/changelog.php [L]
+    RewriteRule ^ranking$ themes/ranking.php [L]
+
+    #Przekierowania podstron ustawień
+    RewriteRule ^ustawienia$ themes/user_profile/settings/settings.php [L]
+    RewriteRule ^ustawienia/awatar$ themes/user_profile/settings/my_acc_settings.php [L]
+    RewriteRule ^ustawienia/dostep$ themes/user_profile/settings/access.php [L]
+
+    #Przekierowania panelu administracyjnego
+    RewriteRule ^admin/poczekalnia$ admin/poczekalnia.php [L]
+    RewriteRule ^admin/zgloszenia-uzytkownikow$ admin/report_page.php [L]
+
+    #Przekierowania dla podstron logowania i rejestracji
+    RewriteRule ^logowanie$ login.php [L]
+    RewriteRule ^rejestracja$ rejestracja.php [L]
+
+    #Przekierowania dla podstron wyszukiwania tagu
+    RewriteRule ^tag/(.+)/([0-9]+$)$ themes/wyszukiwarka/wynik_wyszukiwania.php?hashtag=$1&szukaj=&page=$2 [L]
+    RewriteRule ^tag/(.+)$ themes/wyszukiwarka/wynik_wyszukiwania.php?hashtag=$1&szukaj= [L]
+
+    #Przekierowanie pagerów na /numer_strony
+    RewriteRule ^page/([0-9]+$)$ ?page=$1 [L]
+    RewriteRule ^poczekalnia/([0-9]+$)$ themes/poczekalnia.php?page=$1 [L]
+</IfModule>

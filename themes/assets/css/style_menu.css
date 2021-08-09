@@ -1,0 +1,265 @@
+#menu{
+	height: 70px;
+	line-height:70px;
+	text-align:left;
+	font-weight:bold;
+	font-size:12px;
+	float: right;
+	transition: 0.3s;
+	text-align:center;
+	margin-right: 67px;
+}
+
+#menu ul, #menu ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}     
+
+#menu ul {
+	width: 100%;
+}
+
+#menu ul li:first-child {
+	float: right;
+	width: auto;
+	margin-right: 0px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#menu ul li {
+	float: right;
+	width: auto;
+	margin-right: 29px;
+	text-align: center;
+	cursor: pointer;
+}
+
+ul a:link, ul a:visited, ul a:focus {
+	display: block;
+}
+
+/* Rozwijane menu, konto użytkownika start */
+
+.transition{
+	transition: .3s;
+}
+
+#menu > ul > li > #expand_menu{
+	position: absolute;
+	display: none;
+	width: 300px;
+	margin-top: 21px;
+	margin-left: -277px;
+	border-left: solid 1px #ff5917;
+	border-right: solid 1px #ff5917;
+	background-color: #1f1f1f;
+	transition: 0.3s;
+}
+
+.submenu-scroll{
+	transition: 0.3s;
+	margin-top: 11px !important;
+}
+
+@-moz-document url-prefix() {
+	#menu > ul > li > #expand_menu{
+		position: absolute;
+		display: none;
+		width: 300px;
+		margin-top: -10px;
+		margin-left: -276px;
+		border-left: solid 1px #ff5917;
+		border-right: solid 1px #ff5917;
+		background-color: #1f1f1f;
+		transition: 0.3s;
+	}
+
+	.submenu-scroll{
+		margin-top: -20px !important;
+	}
+}
+
+#menu ul li ul .expand-item{
+	background-color: #ff5917;
+	width: 298px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px; 
+	outline: none;
+	margin-right: auto;
+	padding: 0 5px 0 0px;
+	display: inline-block;
+   	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#menu ul li ul .expand-item-other{
+	background-color: #1f1f1f;
+	width: 298px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align: left;
+	font-size: 16px; 
+	outline: none;
+	margin-right: auto;
+	padding: 0 5px 0 25px;
+	display: block;
+   	text-overflow: ellipsis;
+	white-space: nowrap;
+	border-bottom: solid 1px #0e0e0e;
+}
+
+
+#menu ul li ul li a, #menu ul li ul li a:focus{
+	color:white;
+	outline: none;
+}
+
+/* Rozwijane menu, konto użytkownika end */
+
+.ikony_menu{
+	line-height: 70px !important;
+	font-size: 26px !important; 
+	color: white;
+}
+
+.discordImg {
+	width: 30px;
+	margin-top: 24px;
+}
+
+.my_acc_menu{
+	width:24px;
+	border-radius: 2px; 
+	margin-right: 5px;
+	margin-top: 23px;
+	vertical-align: baseline;
+}
+
+.expand_ico{
+	font-size:22px;
+	margin-right: 10px;
+	/*margin-left: 10px;*/
+	vertical-align: middle;
+}
+
+.expand_ico_trophy {
+	font-size:20px;
+	margin-right: 10px;
+	/*margin-left: 10px;*/
+	vertical-align: middle;
+}
+
+.expand_menu_profile_ico {
+	width: 20px;
+	margin-right: 12px;
+}
+
+.expand_img{
+	border-radius: 50%;
+	width: 30px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+/* responsywne menu start */
+
+ #menu-button {
+ 	display: none;
+ }
+   #menu_ul {
+   	list-style: none; 
+   	float: left; 
+   	width: 100%;
+   }
+   #menu_ul li {
+   	float: left; 
+   	display: block; 
+   	padding: 0 1%;
+   }
+   #menu_ul li a {
+   	text-decoration: none; 
+   	color: #222;
+   }
+
+   @media screen and (min-width: 1001px) {
+     #menu {
+     	display: block !important;
+     }
+    }
+
+   @media screen and (max-width: 1000px) {
+	     #menu {
+	     	height: 40px;
+    		line-height: 40px;
+	     	display: none;  
+	     	background: #1f1f1f;
+	     	position: absolute;
+	     	width: 100%;
+	     	top:60;
+	     	right: 0;
+	     	border-bottom: solid 1px #ff5917;
+	     	padding-right: 21px;
+	     	margin-right: 0;
+	     }
+
+	     #menu ul li #expand_menu{
+	     	top:40;
+	     	right: 0;
+	     	margin-top: 0px;
+	     }
+
+	    #menu ul li ul .expand-item-other, #menu ul li ul .expand-item{
+	    	margin:0;
+	    }
+
+	     #menu_ul li {
+	     	width: 100%; 
+	     	padding:0;
+	     }
+	     #menu-button {
+	     	display: block;
+	     	top:0;
+	     	right: 0;
+	     	position: absolute;
+		    float:right !important;
+			background: rgb(255,255,255,0);
+			border: none;
+			text-decoration: none;
+			color:white;
+			font-size:36px;
+			padding: 13px 15px 10px 10px;
+	     }
+	     #menu-button:focus {
+	     	outline: none;
+	     }
+
+	     .ikony_menu{
+	     	line-height: 40px !important;
+	     	font-size: 22px !important;
+	     }
+
+		 .discordImg {
+			width: 25px;
+			margin-top: 11px;
+		 }
+
+	     #menu ul li {
+	     	margin: 0px 13px 0 13px;
+			float:right;
+		 }
+
+	    ul a:hover {
+		border: none;
+		} 
+
+		.my_acc_menu{
+			width:20px;
+			margin-top: 10px;
+		}
+
+	}
