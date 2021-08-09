@@ -1,5 +1,5 @@
 <?php 
-include('themes/inc/naglowek.php'); 
+require_once('/var/www/html/themes/inc/naglowek.php'); 
 
 $userName = $_GET['user'];
 
@@ -266,4 +266,4 @@ if (!isset($_SESSION['user_id']) and !isset($_SESSION['login']) and (!$spr_rangi
 }
 ?>
 
-<?php require_once('/themes/inc/footer.php'); ?>
+<?php require_once(__THEMES_PATH__.'inc/footer.php'); ?>

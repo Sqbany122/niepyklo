@@ -1,4 +1,4 @@
-<?php include('/var/www/html/themes/inc/naglowek.php'); ?>
+<?php require_once('/var/www/html/themes/inc/naglowek.php'); ?>
 
 <div class="container">
 	<div class="row">
@@ -35,4 +35,4 @@
 	</div>
 </div>
 
-<?php require_once('/var/www/html/themes/inc/footer.php');?>
+<?php require_once('/var/www/html/themes/inc/footer.php'); ?>

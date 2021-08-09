@@ -1,4 +1,4 @@
-<?php require_once('themes/inc/naglowek.php'); ?>
+<?php require_once('/var/www/html/themes/inc/naglowek.php'); ?>
 
 <div class="container marginRanking">
 	<table class="rankingTable">
@@ -18,4 +18,4 @@
 	</table>
 </div>
 
-<?php require_once('/themes/inc/footer.php');?>
+<?php require_once('/var/www/html/themes/inc/footer.php'); ?>

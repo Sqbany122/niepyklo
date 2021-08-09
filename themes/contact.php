@@ -1,5 +1,5 @@
 <?php 
-    include_once('themes/inc/naglowek.php');
+    require_once('/var/www/html/themes/inc/naglowek.php');
 
     // adding form message to database.
 	if (isset($_POST['submit']) && isset($_SESSION['login'])) {
@@ -35,4 +35,4 @@
 	</div>
 </div>	
 
-<?php require_once('/themes/inc/footer.php'); ?>
+<?php require_once('/var/www/html/themes/inc/footer.php'); ?>

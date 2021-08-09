@@ -1,5 +1,5 @@
 <?php 
-  include_once('themes/inc/naglowek.php'); 
+  require_once('/var/www/html/themes/inc/naglowek.php');
 
   // function to check data passed from user in form.
   function checkTheData($info) {
@@ -109,4 +109,4 @@
   <a href="/"><img style="margin-right: 200px; width:400px;" src="img/img_reje_2.png"/></a>
   </div>
 </div>
-<?php require_once('/themes/inc/footer.php'); ?>
+<?php require_once('/var/www/html/themes/inc/footer.php'); ?>

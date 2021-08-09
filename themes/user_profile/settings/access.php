@@ -1,4 +1,4 @@
-<?php include_once('/themes/inc/naglowek.php'); 
+<?php include_once(__THEMES_PATH__.'inc/naglowek.php'); 
 
 if (!isset($_SESSION['login'])) {
     ?>
@@ -30,4 +30,4 @@ if (!isset($_SESSION['login'])) {
     </table>
 </div>
 
-<?php include_once('/themes/inc/footer.php'); ?>
+<?php include_once(__THEMES_PATH__.'inc/footer.php'); ?>

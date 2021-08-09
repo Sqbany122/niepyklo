@@ -40,6 +40,7 @@
 	transition: 0.7s;
 	color: #fff;
 	cursor: pointer;
+	border-radius: .25rem;
 }
 
 .td_input_dodaj {
@@ -53,6 +54,7 @@
 	transition: 0.7s;		
 	color: #fff;
 	cursor: pointer;
+	border-radius: .25rem;
 }
 
 .td_input_logowanie, .td_input_logowanie:focus {
@@ -67,6 +69,7 @@
 	transition: .3s;
 	color: #fff;
 	cursor: pointer;
+	border-radius: .25rem;
 }
 
 .forgot_password, .forgot_password:focus {
@@ -84,6 +87,7 @@
 	transition: 0.3s;
 	color: #fff;
 	cursor: pointer;
+	border-radius: .25rem;
 }
 
 .go_back_btn,.go_back_btn:hover {
@@ -102,6 +106,7 @@
 	color: #fff;
 	cursor: pointer;
 	transition: .3s;
+	border-radius: .25rem;
 }
 
 .regulamin{

@@ -37,6 +37,7 @@
 	transition: 0.7s;		
 	color: #fff;
 	cursor: pointer;
+	border-radius: .25rem;
 }
 
 .td_input_logowanie, .td_input_logowanie:focus {
@@ -51,6 +52,7 @@
 	transition: .3s;
 	color: #fff;
 	cursor: pointer;
+	border-radius: .25rem;
 }
 
 .button_login, .button_login:focus {
@@ -66,6 +68,7 @@
 	color: #fff;
 	transition: .7s;
 	cursor: pointer;
+	border-radius: .25rem;
 }
 
 .regulamin{
@@ -114,4 +117,5 @@
 	color: #fff;
 	cursor: pointer;
 	transition: .3s;
+	border-radius: .25rem;
 }

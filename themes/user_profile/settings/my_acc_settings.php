@@ -1,4 +1,4 @@
-<?php include('themes/inc/naglowek.php'); ?> 
+<?php include(__THEMES_PATH__.'inc/naglowek.php'); ?> 
 <?php
 $spr_rangi=mysqli_fetch_array(mysqli_query($mysqli,"SELECT * FROM user WHERE login='".$_SESSION['login']."'"));
 //UPLOAD OBRAZKA
@@ -139,4 +139,4 @@ $mem_db	= mysqli_query($mysqli, "SELECT * FROM shity WHERE czeka='0' AND autor='
 }
 ?>
 
-<?php require_once('/themes/inc/footer.php'); ?>
+<?php require_once(__THEMES_PATH__.'inc/footer.php'); ?>
